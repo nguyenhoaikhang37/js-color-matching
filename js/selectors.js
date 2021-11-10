@@ -13,3 +13,11 @@ export function getPlayAgainButton() {
 export function getColorBackground() {
   return document.querySelector('.color-background')
 }
+
+export function getUlElement() {
+  return document.getElementById('colorList')
+}
+
+export function getActiveColorList() {
+  return document.querySelectorAll('#colorList > li:not(.active)')
+}
